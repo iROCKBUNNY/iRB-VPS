@@ -1,2 +1,2 @@
-# VPS
+# iRB-VPS
 iROCKBUNNY VPS Website
