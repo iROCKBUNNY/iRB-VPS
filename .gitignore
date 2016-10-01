@@ -1,7 +1,15 @@
-_site/*
-
-Thumbs.db
+# macOS
 .DS_Store
 
-*.gem
-*.lock
+# Windows
+Thumbs.db
+
+# phpMyAdmin
+irb-x/
+irb-x@
+irb-x*
+
+# Piwic
+analytics/
+analytics@
+analytics*
