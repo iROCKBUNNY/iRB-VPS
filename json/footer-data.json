@@ -7,18 +7,15 @@
     "powered_by": [
         {
             "link": "http://getbootstrap.com/",
-            "name": "Bootstrap",
-            "version": "v3.3.7"
+            "name": "Bootstrap"
         },
         {
             "link": "http://jquery.com/",
-            "name": "jQuery",
-            "version": "v3.2.1"
+            "name": "jQuery"
         },
         {
             "link": "http://fortawesome.github.io/Font-Awesome/",
-            "name": "Font Awesome",
-            "version": "v4.7.0"
+            "name": "Font Awesome"
         }
     ]
 }

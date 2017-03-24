@@ -7,7 +7,7 @@ $.getJSON('https://vps.irockbunny.com/json/footer-data.json', function(data) {
             $('#powered-by').append($('<a>').attr('href', data.powered_by[i].link).attr('target', '_blank').html(data.powered_by[i].name)).append(' ' + data.powered_by[i].version);
         }
         else {
-            $('#powered-by').append(' &middot; ').append($('<a>').attr('href', data.powered_by[i].link).attr('target', '_blank').html(data.powered_by[i].name)).append(' ' + data.powered_by[i].version);
+            $('#powered-by').append(' &middot; ').append($('<a>').attr('href', data.powered_by[i].link).attr('target', '_blank').html(data.powered_by[i].name));
         };
     };
     $('#footer-info').append($('<p>').html(function(){var date = new Date(); return '&copy; ' +  date.getFullYear() + ' ';})
