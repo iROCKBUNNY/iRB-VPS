@@ -1,6 +1,6 @@
 // set-footer.js
 
-$.getJSON('https://vps.irockbunny.com/json/footer-data.json', function (data) {
+$.getJSON('/json/footer-data.json', function (data) {
     $('#footer-info').append(
         $('<p>').attr('id', 'powered-by').html('Powered by ')
     );
