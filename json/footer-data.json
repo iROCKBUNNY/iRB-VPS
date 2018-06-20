@@ -1,20 +1,20 @@
 {
     "organization": {
-        "link": "http://teelab.net/",
+        "link": "https://teelab.net/",
         "name": "TEELAB",
         "suffix": ", Inc."
     },
     "powered_by": [
         {
-            "link": "http://getbootstrap.com/",
+            "link": "https://getbootstrap.com/",
             "name": "Bootstrap"
         },
         {
-            "link": "http://jquery.com/",
+            "link": "https://jquery.com/",
             "name": "jQuery"
         },
         {
-            "link": "http://fortawesome.github.io/Font-Awesome/",
+            "link": "https://fontawesome.com/",
             "name": "Font Awesome"
         }
     ]
