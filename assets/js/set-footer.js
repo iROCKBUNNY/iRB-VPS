@@ -18,7 +18,7 @@ $.getJSON('/json/footer-data.json', function (data) {
     };
     $('#footer-info').append(
         $('<p>').html(function () {
-            return '&copy; ' +  new Date().getFullYear() + ' ';
+            return `<i class="far fa-copyright fa-fw" aria-hidden="true"></i>${new Date().getFullYear()} `;
         }).append(
             $('<a>').attr('href', data.organization.link).attr('target', '_blank').html(data.organization.name)
         ).append(data.organization.suffix)
